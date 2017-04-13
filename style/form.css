@@ -12,8 +12,16 @@ body{
 	overflow: auto;
 }
 
+fieldset {
+	width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    text-align:center;
+}
+
 .title h1 {
 	text-align: center;
+	margin-right: 100px;
 	padding: 19px;
 	color: #b30000;
 }

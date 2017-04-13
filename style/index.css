@@ -7,7 +7,6 @@ body {
 .container {
 	max-width: 970px;
 	margin: 0 auto;
-	
 }
 
 .container-1 {
@@ -39,6 +38,7 @@ a {
 
 .header h1 {
 	color: #b30000;
+	margin-right: 100px;
 }
 
 .title {
