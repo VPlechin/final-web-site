@@ -1,0 +1,133 @@
+/*загальні стилі*/
+body {
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+.container {
+	max-width: 970px;
+	margin: 0 auto;
+	
+}
+
+.container-1 {
+	text-align: center;
+	background-clip: content-box;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+/*заголовок*/
+.header {
+	height: 100%;
+	margin-top: 10px;
+	background: linear-gradient(160deg, #FFFFFF, #FFA500);
+	border: 2px solid orange;
+	font-family: 'Indie Flower', cursive;
+}
+
+.header h1 {
+	color: #b30000;
+}
+
+.title {
+	text-align: center;
+}
+
+#logo {
+	float: left;
+	margin: 10px 10px;
+}
+
+/*навігація*/
+.page-navigation {
+	display: flex;
+	justify-content: flex-end;
+	background-color: #ff9900;
+	border: 2px solid orange;
+	min-height: 50px;
+}
+
+.page-navigation li {
+	float: right;
+	width: 150px;
+}
+
+.page-navigation a {
+	display: block;
+	color: #990000;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+
+.page-navigation li a:hover {
+	color: #ff9900;
+	background-color: #b30000;
+}
+
+/*основна частина*/
+.classical-title h2, 
+.reason-title h2, 
+.repository-title h2 {
+	text-align: right;
+	border-bottom: 1px solid #777;
+	font-size: 27px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.classical-text {
+	padding: 5px;
+	overflow: auto;
+}
+
+.classical-text img {
+	float: right;
+	width: 40%;
+	border: 1px solid grey;
+	padding: 5px;
+	margin: 5px;
+}
+
+.reason-text img {
+	float: left;
+	width: 40%;
+	padding: 5px;
+	margin: 5px;
+}
+
+.in-terrier-images img {
+	display: inline-block;
+	max-width: 49%;
+}
+
+.carousel-inner img {
+	margin: 0 auto;
+	max-height: 330px;
+}
+
+/*підвал*/
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff9900;
+	border: 2px solid orange;
+	min-height: 30px;
+}
+
+.footer p {
+	margin-bottom: 0;
+}

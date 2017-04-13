@@ -1,0 +1,102 @@
+/*загальні стилі*/
+body{
+	max-width: 970px;
+	margin: 0 auto;
+}
+
+p {
+	font-size: 13px;
+	line-height: 1.3em;
+}
+
+.header {
+	height: 100%;
+	margin-top: 10px;
+	background: linear-gradient(160deg, #FFFFFF, #FFA500);
+	border: 2px solid orange;
+	font-family: 'Indie Flower', cursive;
+	overflow: auto;
+}
+
+.title h1 {
+	text-align: center;
+	padding: 19px;
+	color: #b30000;
+}
+
+#logo {
+	float: left;
+	margin: 10px 10px;
+}
+
+.btn-default {
+	float: right;
+	background-color: transparent;
+}
+
+/*основна частина*/
+.bookshelf h1 {
+	text-align: right;
+	border-bottom: 1px solid #777;
+	font-size: 27px;
+	font-weight: bold;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+.announce-all {
+	display: block;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+.announce-book-outer {
+	float: left;
+	padding: 0 5px;
+	width: 33.33%;
+	box-sizing: border-box;
+}
+
+.announce-book {
+	display: inline-block;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+.announce-book p {
+	max-height: 80px;
+	overflow: hidden;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+.announce-book button {
+	border-radius: 5px;
+	margin-top: 5px;
+	background-color: transparent;
+}
+
+.announce-book button:hover,
+.btn-default:hover {
+	color: #FFFFFF;
+	background-color: #FFA500;
+}
+
+.announce-book img {
+	margin-bottom: 5px;
+}
+
+/*підвал*/
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff9900;
+	border: 2px solid orange;
+	min-height: 30px;
+}
+
+.footer p {
+	margin: 0;
+}

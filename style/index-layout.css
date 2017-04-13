@@ -1,0 +1,16 @@
+
+@media screen and (max-width: 670px) {
+main {
+    flex-wrap: wrap;
+}
+
+.in-terrier-images img {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#classical-picture {
+    display: flex;
+    flex-wrap: wrap;
+}
+}

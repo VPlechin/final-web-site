@@ -1,0 +1,47 @@
+body{
+	max-width: 970px;
+	margin: 0 auto
+}
+
+.header {
+	height: 100%;
+	margin-top: 10px;
+	background: linear-gradient(160deg, #FFFFFF, #FFA500);
+	border: 2px solid orange;
+	font-family: 'Indie Flower', cursive;
+	overflow: auto;
+}
+
+.title h1 {
+	text-align: center;
+	padding: 19px;
+	color: #b30000;
+}
+
+#logo {
+	float: left;
+	margin: 10px 10px;
+}
+
+.btn-default {
+	float: right;
+	background-color: transparent;
+}
+
+.btn-default:hover {
+	color: #FFFFFF;
+	background-color: #FFA500;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ff9900;
+	border: 2px solid orange;
+	min-height: 30px;
+}
+
+.footer p {
+	margin: 0;
+}

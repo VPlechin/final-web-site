@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="utf-8">
+	<title>bookshelf</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+	<link rel="stylesheet" type="text/css" href="style/normalize.css">
+	<link rel="stylesheet" type="text/css" href="style/form.css">
+</head>
+
+<body class="container">
+	
+	<header class="header">
+		<div id="logo">
+			<img src="img/logo.jpg" height="100" alt="logo">
+		</div>
+		<a class="btn btn-default" href="index.html" role="button">на Головну</a>
+		<a class="btn btn-default" href="announcement.html" role="button">на Полицю</a>
+		<div class="title">
+			<h1>booKWorm</h1>
+		</div>
+	</header>
+	
+	<main>
+	
+		<form action="https://formspree.io/VPlechin@yahoo.com" method="POST">
+			<fieldset><legend>Додати книгу</legend>
+					<label>Назва* <input type="text" name="name" required=""></label><br><br>
+					<label>Автор* <input type="text" name="author" required=""></label><br><br>
+					<label>Опис<br><textarea name="description" cols="50" rows="5"></textarea></label><br><br>
+					<label>Місто* <input type="text" name="city" placeholder="звідки ти?" required=""></label><br><br>
+					<label>Телефон* <input type="tel" name="mobile" placeholder="0xx-xxx-xx-xx" required="0[1-9]{2}-[1-9]{3}-[1-9]{2}-[1-9]{2}"></label><br><br>
+					<label><input type="radio" name="choice">Обміняю  </label>
+					<label><input type="radio" name="choice">Подарую</label><br><br>
+					<input type="submit" value="Надіслати">
+					<input type="reset" name="Скинути">
+			</fieldset>
+		</form>
+	
+	</main>
+	
+		<footer class="footer">
+			<p>Copyright &copy; VPlechin, SoftServe Academy, 2017</p>
+		</footer>
+	
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	</body>
+</html>
